@@ -138,7 +138,7 @@ col_input, col_result = st.columns([1.1, 1], gap="large")
 
 with col_input:
     st.image(
-        "images/pump.png",
+        "pump.png",
         caption="Typical Tanzanian hand pump",
         use_container_width=True,
     )
@@ -249,7 +249,7 @@ with col_result:
         """, unsafe_allow_html=True)
 
         st.image(
-            "images/tanzania_map.png",
+            "tanzania_map.png",
             caption="Tanzania — 59,400 pumps mapped across the country",
             use_container_width=True,
         )
